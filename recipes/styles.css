@@ -1,0 +1,68 @@
+/* ----- Styling for all recipe pages ----- */
+
+.h1headers,
+.h3headers, 
+.h4headers,
+.para{
+    font-family: Verdana, sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+.h1headers{
+    text-align: center;
+    font-size: 40px;
+}
+
+.h3headers{
+    text-align: center;
+}
+
+.home{
+    display: block;
+    text-align: center;
+}
+
+/* ----- Styling for mac-n-cheese.html ----- */
+.mac-cheese-body{
+    background-color: rgb(245, 173, 106);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 300px;
+}
+
+.mac-cheese-list li,
+.mac-cheese-steps li{
+    font-family: Verdana, sans-serif;
+    list-style-position: inside;
+    background-color: rgb(247, 159, 88);
+    
+}
+
+/* ----- Styling for healthier-ramen.html ----- */
+
+.ramen-body{
+    
+    background-color: rgb(28, 28, 199);
+}
+
+.h1headers.ramen,
+.h3headers.ramen,
+.para.ramen,
+.h4headers.ramen,
+.ramenlists{
+    color: rgb(221, 221, 221);
+    font-family: Verdana, sans-serif;
+}
+
+.ramenlists{
+    font-family: Verdana, sans-serif;
+    list-style-position: inside;
+    background-color: rgb(0, 12, 185);
+}
+
+/* ----- Styling for homemade-pizza.html ----- */
